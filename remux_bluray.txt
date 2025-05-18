@@ -1,0 +1,10 @@
+remux_bluray/
+├── main.py
+├── mpls_parser.py            # Détection de la playlist principale
+├── makemkv_handler.py        # Gestion de MakeMKV : info + extraction
+├── track_filter.py           # Filtrage audio/vidéo/sous-titres via mkvmerge
+└── utils.py                  # Fonctions utilitaires communes
+    └──language_map.py
+└──mediainfo_helper.py
+└──tracker_helper.py
+└──muxer.py
